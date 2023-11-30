@@ -4,11 +4,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello2():
-    return "Say Hello from Dockerised Flask"
+    return "I am being creative"
 
-@app.route("/route32a")
+@app.route("/create")
 def route32a():
-    return "Hello from the 32A"
+    return "This page is even more creative"
 
 @app.route("/route")
 def route():
